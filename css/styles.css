@@ -1,0 +1,60 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+    background: linear-gradient(93deg, #33B2D3 20.76%, #2D44D2 78.80%);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;    
+}
+
+nav ul li{
+    margin: 0 30px;    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;    
+}
+
+nav span{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn{
+    background-color: rgb(255, 145, 0);
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#texto-principal{
+    width: 30%;
+    color: white;  
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+main span{
+    font-size: 40px;
+    display: block;
+}
