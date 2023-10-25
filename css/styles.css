@@ -73,4 +73,8 @@ main span{
     padding: 10px;
 }
 
-
+h1 {
+    justify-content: center;
+    display: flex;
+    color: white;
+}
