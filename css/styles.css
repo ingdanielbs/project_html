@@ -58,3 +58,19 @@ main span{
     font-size: 40px;
     display: block;
 }
+
+#contacto form{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 40px auto;
+}
+
+#contacto input, select, textarea{
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+
